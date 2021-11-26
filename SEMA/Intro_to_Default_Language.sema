@@ -1,0 +1,7 @@
+//Default Engine Syntax
+> {100}saw; //saw 100Hz
+
+//Mixing
+> {{2}saw,{4}saw}mix; //mix two saw waves
+
+
