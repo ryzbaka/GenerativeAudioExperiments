@@ -1,0 +1,20 @@
+//>{{300}sin,{1000}sin}mul; // > is for directing sound to output
+
+//>0{{100}sin,{400}sin}mix;
+
+//>1{{200}sin,{300}sin}mix;
+
+//>0{{1}noiz,200,1}lpz;
+
+
+//You can also use the dac function which takes in a signal and a channel
+//{{{1}noiz, 200, 1}lpz,0}dac; //0 -> left
+//{{{1}noiz, 200, 1}lpz,1}dac; //1 -> right
+//{{{1}noiz, 200, 1}lpz}dac; //default -> both
+
+//DAC->Digital - to - Analog Converter
+
+//MIC INPUT
+>{{1}adc, {50}sin}mul;
+
+//ADC->Analog - to - Digital Converter
